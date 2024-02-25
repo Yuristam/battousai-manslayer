@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Sakurata;
+    src: url(fonts/SAKURATA.otf);
+}
+@font-face {
+    font-family: ElectronicHarmonix;
+    src: url(fonts/electroharmonix.otf);
+}
+body {
+    background-image: url(images/background2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: ElectronicHarmonix;
+    text-align: center;
+}
+iframe{
+    border-radius: 12px;
+    width: 60%;
+    height: 500px;
+}
+.quote{
+    position: absolute;
+    font-family: Sakurata;
+    bottom: 20px;
+    font-size: 1em;
+}
